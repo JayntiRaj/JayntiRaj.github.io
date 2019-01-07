@@ -1,3 +1,9 @@
 .h5 {
     font-display: bold
 }
+
+.block {
+    background-color: cornflowerblue;
+    height: 250px;
+    border: solid black 2px;
+}

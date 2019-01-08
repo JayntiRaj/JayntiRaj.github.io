@@ -2,8 +2,43 @@
     font-display: bold
 }
 
+body {
+    margin: 0;
+    background-image: "me.JPG";
+}
+
 .block {
     background-color: cornflowerblue;
     height: 250px;
-    border: solid black 2px;
+}
+
+.personal {
+    background-color: rgb(133, 34, 214);
+}
+
+.image {
+    position: relative;
+
+}
+
+.about {
+    border: solid white 1px;
+    display: inline-block;
+    height: 250px;
+}
+
+.intro {
+    background-color: rgb(2, 117, 2);
+}
+
+.work {
+    background-color: rgb(77, 16, 16);
+}
+
+.academic {
+    background-color: rgb(231, 169, 13);
+}
+
+p {
+    align-content: center;
 }

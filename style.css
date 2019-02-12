@@ -2,43 +2,37 @@
     font-display: bold
 }
 
+
+.dark_blue {
+    background-color: #233142;
+    height: 300px;
+    width: 100%
+}
+
+.light_blue {
+    background-color: #4f9da6;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
 body {
+    width: 100%;
     margin: 0;
-    background-image: "me.JPG";
-}
-
-.block {
-    background-color: cornflowerblue;
-    height: 250px;
-}
-
-.personal {
-    background-color: rgb(133, 34, 214);
-}
-
-.image {
-    position: relative;
-
-}
-
-.about {
-    border: solid white 1px;
-    display: inline-block;
-    height: 250px;
-}
-
-.intro {
-    background-color: rgb(2, 117, 2);
-}
-
-.work {
-    background-color: rgb(77, 16, 16);
-}
-
-.academic {
-    background-color: rgb(231, 169, 13);
+    padding: 0;
 }
 
 p {
     align-content: center;
+}
+
+.me_img {
+    height: 100%;
+}
+
+img {
+    margin-top: 50px;
+    border-radius: 50%;
+    height: 800px;
+    margin-left: -100px;
 }
